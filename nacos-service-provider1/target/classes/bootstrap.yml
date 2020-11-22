@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        namespace: 2a80ac70-25a5-4eba-8d54-03238c4386e2
+        server-addr: 127.0.0.1:8848 #配置中心地址
+        file-extension: yaml
+        prefix: application

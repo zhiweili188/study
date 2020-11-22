@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    nacos:
+      # Nacos 作为注册中心的配置项，对应 NacosDiscoveryProperties 配置类
+      discovery:
+        namespace: ab96a58d-d8b8-4da0-805d-43fd7f6ec94a
+        server-addr: 127.0.0.1:8848 # Nacos 服务器地址
+        service: ${spring.application.name} # 注册到 Nacos 的服务名。默认值为 ${spring.application.name}。
